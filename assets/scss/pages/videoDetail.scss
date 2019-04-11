@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  .video__info {
+  .video__info,
+  .video__author {
     width: 100%;
     max-width: 850px;
     margin-top: 25px;
@@ -29,6 +30,7 @@
   }
   .video__comments {
     margin-top: 25px;
+    text-align: center;
     .video__comment-number {
       font-size: 18px;
     }
